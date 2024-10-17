@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">Filmoteca</string>
+    <string name="title_author">Creada por Jorge Manuel Ros Tobal</string>
+    <string name="text_go_to_site_web">Ir al sitio web</string>
+    <string name="text_get_support">Obtener soporte</string>
+    <string name="text_back">Volver</string>
+    <string name="text_watch_film_a">Ver película A</string>
+    <string name="text_watch_film_b">Ver película B</string>
+    <string name="text_about">Acerca de</string>
+    <string name="text_data_film">Datos de la película</string>
+    <string name="text_watch_film">Ver película IMDB</string>
+    <string name="text_edit_film">Editar película</string>
+    <string name="text_back_to_home">Volver a la principal</string>
+    <string name="text_editing_film">Editando película</string>
+    <string name="text_save">Guardar</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_director">Director</string>
+    <string name="text_anyo">Año</string>
+    <string name="text_take_photo">Captura fotografía</string>
+    <string name="text_select_image">Selecciona imagen</string>
+    <string name="text_title_film">Título de la película</string>
+    <string name="text_name_director">Nombre del director</string>
+    <string name="text_url_imdb">Enlace a IMDB</string>
+    <string name="text_comments">Comentarios</string>
+    <string name="text_select_genre">Seleciona el genero</string>
+    <string name="text_select_format">Selecciona el formato</string>
+    <string name="text_action">Acción</string>
+    <string name="text_drama">Drama</string>
+    <string name="text_comedy">Comedia</string>
+    <string name="text_terror">Terror</string>
+    <string name="text_fail_camara">No se ha podido abrir la camara</string>
+    <string name="text_fail_gallery">No se ha podido abrir la galeria</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="title_author">Created by Jorge Manuel Ros Tobal</string>
+    <string name="text_go_to_site_web">Go to site web</string>
+    <string name="text_get_support">Get support</string>
+    <string name="text_back">Back</string>
+    <string name="text_watch_film_a">Watch film A</string>
+    <string name="text_watch_film_b">Watch film B</string>
+    <string name="text_about">About</string>
+    <string name="text_data_film">Film details</string>
+    <string name="text_watch_film">Watch in IMDB</string>
+    <string name="text_edit_film">Edit film</string>
+    <string name="text_back_to_home">Back to home</string>
+    <string name="text_editing_film">Editing film</string>
+    <string name="text_save">Save</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_director">Director</string>
+    <string name="text_anyo">Year</string>
+    <string name="text_take_photo">Take a photo</string>
+    <string name="text_select_image">Select image</string>
+    <string name="text_title_film">Movie title</string>
+    <string name="text_name_director">Director´s name</string>
+    <string name="text_url_imdb">Url to IMDB</string>
+    <string name="text_comments">Comments</string>
+    <string name="text_select_genre">Select genre</string>
+    <string name="text_select_format">Select format</string>
+    <string name="text_action">Action</string>
+    <string name="text_drama">Drama</string>
+    <string name="text_comedy">Comedy</string>
+    <string name="text_terror">Terror</string>
+    <string name="text_fail_camara">The camera could not be opened</string>
+    <string name="text_fail_gallery">The gallery could not be opened</string>
+</resources>

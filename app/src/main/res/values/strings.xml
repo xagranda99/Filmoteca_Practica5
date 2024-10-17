@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">Filmoteca</string>
-    <string name="title_author">Creada por Jorge Manuel Ros Tobal</string>
+    <string name="title_author">Creada por Xavier Granda</string>
     <string name="text_go_to_site_web">Ir al sitio web</string>
     <string name="text_get_support">Obtener soporte</string>
     <string name="text_back">Volver</string>
@@ -28,6 +28,10 @@
     <string name="text_drama">Drama</string>
     <string name="text_comedy">Comedia</string>
     <string name="text_terror">Terror</string>
+    <string name="new_director">Nuevo director</string>
+    <string name="new_title">Nuevo titulo</string>
+    <string name="add_movie">Añadir película</string>
+    <string name="delete">Eliminar</string>
     <string name="text_fail_camara">No se ha podido abrir la camara</string>
     <string name="text_fail_gallery">No se ha podido abrir la galeria</string>
 </resources>

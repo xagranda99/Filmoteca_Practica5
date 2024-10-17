@@ -3,6 +3,7 @@ package es.ua.eps.filmoteca
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -39,7 +40,29 @@ class AboutActivity : AppCompatActivity() {
         enableEdgeToEdge()
         mode = Mode.valueOf(this.intent.getStringExtra("MODE").toString())
         initUI(this)
+
+        // Configura la Toolbar
+        supportActionBar?.apply {
+            setDisplayHomeAsUpEnabled(true) // Habilita el botón de retroceso
+            //setHomeAsUpIndicator(R.drawable.home) // Cambia el icono por uno de "HOME" si lo deseas
+        }
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                // Cuando se pulsa el icono de HOME, vuelve a la actividad principal
+                val intent = Intent(this, FilmListActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
+                startActivity(intent)
+                finish() // Finaliza la actividad actual
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+
 }
 
 private fun initUI(context: AboutActivity) {

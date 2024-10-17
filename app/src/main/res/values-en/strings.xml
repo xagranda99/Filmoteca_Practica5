@@ -27,6 +27,10 @@
     <string name="text_drama">Drama</string>
     <string name="text_comedy">Comedy</string>
     <string name="text_terror">Terror</string>
+    <string name="new_director">New director</string>
+    <string name="new_title">New title</string>
+    <string name="add_movie">Add movie</string>
+    <string name="delete">Delete</string>
     <string name="text_fail_camara">The camera could not be opened</string>
     <string name="text_fail_gallery">The gallery could not be opened</string>
 </resources>
